@@ -126,9 +126,6 @@ class ApplePayParams with _$ApplePayParams {
     /// ISO 4217 alphabetic currency code.
     required String currencyCode,
 
-    /// The SDK's supported card networks, for example: ["masterCard", "visa"]. A full list of possible networks can be found at https://developer.apple.com/documentation/passkit/pkpaymentnetwork.
-    List<String>? supportedNetworks,
-
     /// The SDK accepts Amex, Mastercard, Visa, and Discover for Apple Pay by default. Set this property to enable other card networks, for example: ["JCB", "barcode", "chinaUnionPay"]. A full list of possible networks can be found at https://developer.apple.com/documentation/passkit/pkpaymentnetwork.
     List<String>? additionalEnabledNetworks,
 
